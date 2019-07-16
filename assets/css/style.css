@@ -1,0 +1,61 @@
+@font-face {
+    src: url("../font/optimusprinceps/OptimusPrinceps.ttf");
+    font-family: darkSoulFont;
+
+}
+* {
+    font-family: darkSoulFont;
+}
+body {
+    background-image: url("../images/cool-background.png");
+    background-size:100%;
+}
+
+#logo {
+    padding: 10px;
+    
+}
+
+h1 {
+    background-color: orange;
+    width: 400px;
+    height: 56px;
+    color: aliceblue;
+}
+#intro {
+    background-color: bisque;
+    margin-left: 0.5%;
+    width: 40%;
+    font-size: 120%;
+}
+
+#random_tag {
+    font-size: 200%;
+    background-color: yellowgreen;
+    width: 10%;
+    margin-left: 0.5%;
+    float: left;
+}
+
+#current_tag {
+    font-size: 200%;
+    background-color: yellowgreen;
+    width: 10%;
+    margin-left: 0.5%;
+    float: left;   
+}
+
+.btn_class {
+    clear:both;
+}
+
+.status {
+    font-size: 200%
+}
+
+#win_tag {
+    float: left;
+    margin-left: 0.5%;
+    margin-right: 10%;
+}
+
